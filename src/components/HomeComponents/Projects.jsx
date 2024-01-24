@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = "/api/projects";
+const API = "https://akshay-portfolio-backend.vercel.app/api/projects";
 
 const Projects = () => {
 
